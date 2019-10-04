@@ -17,11 +17,11 @@ int main() {
     s[2] = a[1]+a[0]+a[3]+a[4];
     s[3] = a[1]+a[2]+a[0]+a[4];
     s[4] = a[1]+a[2]+a[3]+a[0];
-     for(int i = 1; i < 5; i++) {
+     for(int j = 1; j < 5; j++) {
          
-    if(s[0]<=s[i]){
-    temp = s[i];
-    s[i]=s[0];
+    if(s[0]<=s[j]){
+    temp = s[j];
+    s[j]=s[0];
     s[0]=temp;
      }
      }
