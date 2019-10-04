@@ -32,9 +32,9 @@ int main(){
            if((p>s||p==s)&&(p<t || p==t))
              c++;
     }
-    for(int i = 0; i < n; i++){
+    for(int a = 0; a < n; a++){
         q = 0; 
-      q = q + b + orange[i];
+      q = q + b + orange[a];
           
           if((q>s||q==s)&&(q<t || q==t))
              d++;
