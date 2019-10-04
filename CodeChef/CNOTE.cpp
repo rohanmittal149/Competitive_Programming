@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-	int t;
+	int test;
 	int x,y,k,n;
 	int p[1000000],c[1000000];
-	cin>>t;
-	while(t--)
+	cin>>test;
+	while(test--)
 	{
 	    cin>>x;
 	    cin>>y;
