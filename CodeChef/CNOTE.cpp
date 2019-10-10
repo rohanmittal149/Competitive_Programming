@@ -17,9 +17,9 @@ int main() {
 	        cin>>p[i]>>c[i];
 	    }
 	    int f = 0;
-	    for(int i = 0; i<n; i++)
+	    for(int j = 0; j<n; j++)
 	    {
-	        if(p[i] >= (x-y) && c[i] <= k)
+	        if(p[j] >= (x-y) && c[j] <= k)
 	            f++;
 	    }
 	    if(f == 0)
