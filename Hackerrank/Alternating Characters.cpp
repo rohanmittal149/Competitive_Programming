@@ -3,12 +3,12 @@
 using namespace std;
 
 // Complete the alternatingCharacters function below.
-int alternatingCharacters(string s) {
+int alternatingCharacters(string str) {
     int c = 0;
-    int n = s.size();
+    int n = str.size();
     for(int i =0; i<n-1; i++)
     {
-        if(s[i] == s[i+1])
+        if(str[i] == str[i+1])
             c++;
     }
     return c;
