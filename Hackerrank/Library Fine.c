@@ -8,27 +8,27 @@
 
 int libraryFine(int d1, int m1, int y1, int d2, int m2, int y2) 
 {
-    int fine = 0;
+    int fine1 = 0;
     if(y1 == y2 && m1 == m2)
     {
         if(d1 <= d2)
-            fine = 0;
+            fine1 = 0;
         else
-            fine = 15*(d1-d2);
+            fine1 = 15*(d1-d2);
     }
     else if(y1 == y2 && (m1-m2) > 0)
     {
-        fine = 500*(m1 - m2);
+        fine1 = 500*(m1 - m2);
     }
     else{
         if( y1 < y2)
-            fine = 0;
+            fine1 = 0;
         else if(y1 == y2 && (m2-m1) > 0)
-            fine = 0;
+            fine1 = 0;
         else
-            fine = 10000;
+            fine1 = 10000;
     }
-    return fine;
+    return fine1;
 }
 int main() {
     int d1; 
