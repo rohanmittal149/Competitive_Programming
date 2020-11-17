@@ -1,11 +1,11 @@
 import sys
 
-def angryProfessor(k, a):
+def angryProfessor(k1, a1):
     i = 0  
-    for x in a:
+    for x in a1:
         if x<=0:
             i += 1
-    if i >= k:
+    if i >= k1:
         return "NO"
     else:
         return "YES"
