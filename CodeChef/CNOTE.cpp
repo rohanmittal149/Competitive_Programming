@@ -16,13 +16,13 @@ int main() {
 	    {
 	        cin>>p[i]>>c[i];
 	    }
-	    int f = 0;
+	    int g = 0;
 	    for(int i = 0; i<n; i++)
 	    {
 	        if(p[i] >= (x-y) && c[i] <= k)
-	            f++;
+	            g++;
 	    }
-	    if(f == 0)
+	    if(g == 0)
 	        cout<<"UnluckyChef"<<"\n";
 	    else
 	        cout<<"LuckyChef"<<"\n";
